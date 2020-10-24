@@ -1,4 +1,4 @@
-# zoom-scrub
+# zoom-scrub-bootstrap
 A bootstrap landing page for my home carwash  company idea.
 
 Jibryll Brinkley(SPD1.2)-Makeschool
