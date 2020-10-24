@@ -1,0 +1,57 @@
+html {
+font-family: 'Work Sans', sans-serif;
+}
+
+.navbar {
+  padding: 1rem;
+}
+
+.jumbotron2 {
+  background-image: url("suds2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron3{
+background-color: darkgray;
+
+
+}
+.btn-success:hover {
+  background-color: blue;
+  color: white;
+}
+
+.container {
+  background-image: url("suds.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-background-img {
+  position: relative;
+  background: rgba(0, 0, 0, 0.3); /* If our image is bright, we can tone it down with this darker overlay */
+  padding-top:200px;  
+  padding-bottom:200px;
+  background-image: url("laura-dewilde-MTSq-eEqPmU-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-background-img:after {
+  content: "";
+  position: absolute;
+  background-image: url("laura-dewilde-MTSq-eEqPmU-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.5; /* Tone the image down further by giving it transparency */
+}
